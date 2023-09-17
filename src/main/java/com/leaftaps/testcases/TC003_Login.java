@@ -15,6 +15,7 @@ public class TC002_JustLogin extends ProjectHooks{
 		category ="Smoke";
 		excelFileName="Login";
 	}
+
 	
 	@Test(dataProvider = "fetchData")
 	public void runLogin(String username, String password) {
